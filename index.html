@@ -35,24 +35,40 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
   <style>
-        p span {
-            font-size: 1.5em;
-        }
-        p span:nth-child(2) {
-            font-size: 2.5em;
-        }
-        p span:nth-child(3) {
-            font-size: 3em;
-        }
-        p span:nth-child(4) {
-            font-size: 3.5em;
-        }
-        p span:nth-child(5) {
-            font-size: 4em;
-        }
-        p span:nth-child(6) {
-            font-size: 4.5em;
-        }
+        p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: black;
+  margin-bottom: 20px;
+  <!-- Add animation to the paragraphs -->
+  
+  
+}
+/* Define the animation keyframes */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Set different animation delays for each paragraph */
+p:nth-child(1) {
+  animation-delay: 0s;
+}
+
+p:nth-child(2) {
+  animation-delay: 2s;
+}
+
+p:nth-child(3) {
+  animation-delay: 4s;
+}
+
+p:nth-child(4) {
+  animation-delay: 6s;
+}
     </style>
 </head>
 
@@ -108,17 +124,20 @@
 
     </div>
   </header><!-- End Header -->
+  
+
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column justify-content-center">
     <div class="container">
-      <div class="row justify-content-center">
+      <div class="row justify-content-center">	  
         <div class="col-xl-8">
           <!--<h1>KnightOne - Create Bootstrap Website Template</h1>
-          <h2>We are team of designers making websites with Bootstrap</h2>-->
+          <h2>We are team of designers making websites with Bootstrap</h2>
 		  <h1>My Automation Project</h1>	
-          <h2>Click on the video below to watch a screen record of my automation.<div> Will come soon</div></h2>		  
+          <h2>Click on the video below to watch a screen record of my automation.<div> Will come soon</div></h2>-->		  
          <!-- <a href=  class="glightbox play-btn mb-4"> </a>-->
+		 <h1>QA is much more than just testing or bugs.</h1>
         </div>
       </div>
     </div>
@@ -132,16 +151,18 @@
 
         <div class="section-title">
           <h2>About Me</h2>
-		    <p><span>There's a moment in life</span> <span>when you are wake up </span> <span>and deiced to make change</span></p>
+		    
+
+		    <p id="sentence">There's a moment in life when you wake up and decide to make a change</p>
 	
-          <p>Howdy!
-		  I am Ofir Laty and I'm seeking a career transition into the field of Quality Assurance testing.</p> <p>Until recently, i worked in the field of electronics 
+          <p style= "font-family: Comics;font-size: 24px;color:black">Howdy!
+		  I am Ofir Laty and I'm seeking a career transition into the field of Quality Assurance testing.</p> <p style= "font-family: Comics;font-size: 24px;color:black">Until recently, i worked in the field of electronics 
 		  as a Practical Electronics Engineer and as part of my studies as a Practical Engineer in Electronics, Computers, and Software, I learned programming languages,
 		  which gives me a certain advantage in the field.</p>
-		  <p>I'm  both manual & automation at <a href="https://automation.co.il/"target="_blank" style="color:black"><strong>Gal Matalon's</strong></a> automation college.
+		  <p style= "font-family: Comics;font-size: 24px;color:black">I'm  both manual & automation at <a href="https://automation.co.il/"target="_blank" style="color:black"><strong>Gal Matalon's</strong></a> automation college.
 		  I can describe myself as fast learner, autodidact who don't worry about dealing with new challenges and assignments. I'm a team player that at the same time highly
 		  independent and motivated to learn as much as possible in order to develop my skills.</p>
-		  <p> In addition, I am in a field which encourage the development of critical thinking, out-of-the-box thinking and creativity.</p>
+		  <p style= "font-family: Comics;font-size: 24px;color:black"> In addition, I am in a field which encourage the development of critical thinking, out-of-the-box thinking and creativity.</p>
         </div>
 
         <div class="row content">
@@ -161,13 +182,13 @@
               <li><i class="ri-arrow-right-s-fill"></i> Location: Kiryat Motzkin Israel</li>
 			  <li><i class="ri-arrow-right-s-fill"></i> Email: <a href="mailto:ofirlaty@gmail.com"target="_blank">ofirlaty@gmail.com</a></li>
 			  <li><i class="ri-arrow-right-s-fill"></i> Phone:+972 (050) 971 7851</li>
-			  <li><i class="ri-arrow-right-s-fill"></i> Resume: <a href="assets/img/Ofir Laty_CV - 2023 בדיקות תוכנה.pdf"target="_blank">Ofir Laty CV</a></li>
+			  <li><i class="ri-arrow-right-s-fill"></i> Resume: <a href="assets/img/Ofir Laty QA  בדיקות תוכנה.pdf"target="_blank">Ofir Laty CV</a></li>
             </ul>
 			<ul>            
 			<h3>Skills</h3>
 			<li><i class="ri-check-double-line"></i><!--Java,--> HTML5, CSS3.<!--, SQL. POM.--></li>
-				  <li><i class="ri-check-double-line"></i>Will coom soon!<!--Eclipse, Selenium WebDriver, TestNG.--></li>
-				  <li><i class="ri-check-double-line"></i>How soon?<!--DevOps tools: Git, Jenkins, Maven.--> </li>
+				  <li><i class="ri-check-double-line"></i>Platforms:Windows, Mobile (iOS, Android OS), Browsers (Chrome, Firefox, Edge).<!--Eclipse, Selenium WebDriver, TestNG.--></li>
+				  <li><i class="ri-check-double-line"></i>Keen attention to details.<!--DevOps tools: Git, Jenkins, Maven.--> </li>
 				  <li><i class="ri-check-double-line"></i>Veeeery soon.<!--Platforms:Windows, Mobile (iOS, Android OS), Browsers (Chrome, Firefox, Edge, IE).--></li>	
 				  <li><i class="ri-check-double-line"></i><!--API testing tools (REST-assured, Postman).--></li>	
 				  <li><i class="ri-check-double-line"></i>Ok.<!--Keen attention to detail.--></li>
@@ -756,7 +777,10 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
+  
 </body>
 
 </html>
+
+
+
